@@ -1,0 +1,94 @@
+body {
+	
+	background-image: url("bg.jpg");
+	background-size: cover;
+}
+h2{
+margin-left: 470px;
+color: #ffaa00;
+font-size: 35px;
+ font-style: oblique;
+}
+h3{
+margin-left: 620px;
+color: #ffaa00;
+font-size: 35px;
+ font-style: oblique;
+}
+a:hover{
+	background: #ffffff;
+	color: black;
+}
+button:hover{
+	background: #ffffff;
+	color: black;
+}
+
+.boxstyle {
+	width: 800px;
+	border: 7px solid grey;
+	
+	height: 400px;
+	margin-left: 350px;
+	background-color: #fff;
+	color: #fff;
+	background-image: url("logo.jpg");
+	background-size: cover;
+	border-radius: 40px;
+}
+.float {
+	float: left;
+}
+p {
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	margin-left: 250px;
+	font-style: italic;
+}
+p2 {
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	margin-left: 390px;
+	font-style: italic;
+}
+.buttonstyle {
+  background-color: #4CAF50; /* Green */
+  border: 2px solid grey;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 500px;
+  font-style: oblique;
+  cursor: pointer;
+}
+
+.buttonstyle2 {background-color: #008CBA;
+  border: 2px solid grey;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   font-style: oblique;
+   margin-left: 500px;
+  cursor: pointer;} /* Blue */
+.button3 {background-color: #f44336;
+  border: 2px solid grey;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   font-style: oblique;
+ margin-left: 500px;
+  cursor: pointer;} /* Red */ 

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html> 
+<head> 
+	<title>Sign-In</title> 
+	<link rel="stylesheet" type="text/css" href="style-sign.css"> 
+</head>
+<body id="body-color"> <div id="Sign-In">
+	<img src="PEC-Logo.png" align="center">
+	<fieldset style="width:30%">
+		<legend align="center">LOG-IN HERE</legend>
+		 <form method="POST" action="connectivity.php"> User <br><!--We are using POST method because it is secure. If we use GET method our data will not private. POST is commonly being used for these kind of webpages, due to its security.
+-->
+		 	<input type="text" name="user" size="40"><br> Password <br>
+		 	<input type="password" name="pass" size="40"><br> <!--The functionality of type password is to don’t show the text what we will enter in the password box.Instead of password texts or characters it will show bold dots.-->  
+		 	 <input id="button" type="submit" name="submit" value="Log-In">
+		 	 <?php
+				include "include/connectivity.php";
+			?>
+ </form> </fieldset> </div> </body> </html> 
